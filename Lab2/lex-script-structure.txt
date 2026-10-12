@@ -1,0 +1,114 @@
+STRUCTURE OF A LEX SPECIFICATION
+A lex program has three parts:
+definition section
+%%
+rules section
+%%
+user defined functions
+•
+
+The definition section usual contains, among other things, literal blocks and pattern names.
+We shall use the following specification in this section for our experiments :
+%option noyywrap
+In order for lex to work on greater than 1 input files, we are supposed to define a function
+yywrap(). This is not required in our experiments as we shall work with a single input file only.
+•
+
+Literal blocks provide a way to initialize variables used in the actions part. These are
+marked by the symbols %{ and %}. All the code within these markers are inserted
+verbatim in the initial part of the lex.yy.c file.
+
+•
+
+The pattern names are shorthand for defining auxiliary patterns that are used to define
+complex patterns. These are inserted after the %{ and %} block and before the start of the %%.
+
+•
+
+The rules section contain a sequence of pattern – action pairs. The set of allowed patterns is
+fairly large and discussed later.
+
+•
+
+A rule is a pattern - action pair. The set of pattern action pairs used in lex follows.
+
+PATTERNS : The power of the generated lexical analyser depends on the descriptive power of
+patterns.
+Pattern
+Meaning
+Example
+x : x is a single character not in The character x itself
+A
+the lex meta-character set
+\x : x is a single character in the The character x itself
+\*
+lex meta-character set
+“s” : s is a string of characters The string s literally
+“abc;”
+[s] : s is a string of characters Any single character occurring in s [ABC]
+[x−y] : x and y are characters A shorthand for a character class
+[0-9] any character from 0 to 9
+defined by any character in the
+range from x to y
+[^s] : s is a string of characters Any characters except those in
+[^ \t\n] denotes the language
+strings
+consisting of all characters except
+CD Lab/Lex script structure/Supratim/1
+
+a blank, a tab or a newline
+Any character except for a newline Used to denote any single
+.:
+character that is not specified by
+other preceding regular
+expressions
+p{m,n}: p is a pattern and m, n Number of m through n
+X{1,4} denotes the strings {X,
+are integers
+occurrences of the pattern p
+XX, XXX, XXXX}
+(p) : p is a pattern
+The same as p; the parentheses are (ab)+ denotes one or more
+used to define association
+occurrences of ab
+p1 | p2 : p1 and p2 are patterns The strings represented by p1 or p2 (ab) | c+ denotes strings of the
+kind {ab, c, cc, ccc,….}
+p1 p2 : p1 and p2 are patterns The strings represented by p1
+(ab)c+ denotes strings of the kind
+concatenated with the strings
+{abc, abcc, abccc,….}
+represented by p2
+p? : p is a pattern
+Zero or one occurrences of the
+(+|-)? denotes zero or 1
+strings represented by p
+occurrence of + or p* : p is a pattern
+Zero or more occurrences of the
+a* denotes the strings {ε, a, aa,
+strings represented by p
+aaa, ...}
+p+ : p is a pattern
+One or more occurrences of the
+a+ denotes the strings {a, aa,
+strings represented by p
+aaa, ...}
+{n} : n is a pattern name
+The strings defined by the pattern {digit} where digit 1|2|3 defines
+specified in the definition
+corresponding to n
+the strings corresponding to digit
+section
+There are other patterns as well and they will be introduced on a need to know basis.
+Structure of the generated code in lex.yy.c
+Global Definitions :
+C Definitions are inserted verbatim here
+Lex defined functions and data structures are
+also placed here
+yylex();
+User patterns and actions are used here
+User defined functions
+main()
+
+CD Lab/Lex script structure/Supratim/2
+
+

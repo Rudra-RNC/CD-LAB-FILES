@@ -1,0 +1,61 @@
+You need to take extra care about lex meta characters while writing regexes. The set of meta-characters and their use are
+listed below for your reference.
+Meta Intended purpose
+symbol
+"
+To enclose a string
+\
+
+[]
+|
+
+/
+
+Meta Intended purpose
+Meta Intended purpose
+symbol
+symbol
+‒
+Range - a continuous range of
+()
+Group regexes together
+ascii symbols
+Escape character
+^
+Negation when inside a
++
+Positive
+closure;
+≥
+1
+character class
+occurrences of a pattern
+1st symbol in regex indicates
+beginning of line
+Character class – match a
+$
+To match at the end of a line
+?
+0 or 1 occurrence of a pattern
+single character in braces
+Combine 2 or more regexes as
+*
+Kleene
+closure;
+≥
+0 {} Repeat a regex given number
+alternates
+occurrences of a pattern
+of times
+macro for auxiliary regex
+definition
+Lookahead operator beyond
+%
+Used at beginning of lines,
+scope of this course
+such as %option, %{, %}, and
+%%
+
+MO2026/CDLAB/LAB4/Supratim/1
+
+

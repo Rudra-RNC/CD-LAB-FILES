@@ -1,0 +1,23 @@
+total 244
+ 4 drwxrwxr-x 2 btech1025824 btech1025824  4096 Aug 20 11:32 .
+ 4 drwxrwxr-x 8 btech1025824 btech1025824  4096 Jul 30 10:38 ..
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   240 Aug 20 11:17 bsrandinp1.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   243 Aug 13 10:38 bstestinp1.txt
+12 -rw-rw-r-- 1 btech1025824 btech1025824  8313 Aug 13 10:38 lab-assgn.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   934 Aug 13 10:39 lex-meta-symbols.txt
+48 -rw-rw-r-- 1 btech1025824 btech1025824 48274 Aug 20 11:25 lex.yy.c
+ 0 -rw-rw-r-- 1 btech1025824 btech1025824     0 Aug 20 11:32 lsout.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824  3344 Aug 20 11:07 output2.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   960 Aug 13 10:39 path-tests.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824  1458 Aug 13 12:24 prob1a.l
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824  1919 Aug 20 11:24 prob1b.l
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824  2567 Aug 20 11:06 prob2.l
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824  3292 Aug 13 10:38 sampleout.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   364 Aug 13 16:11 sampleprog.c
+40 -rwxrwxr-x 1 btech1025824 btech1025824 39815 Aug 13 12:06 sol1a
+40 -rwxrwxr-x 1 btech1025824 btech1025824 40063 Aug 20 11:31 sol1b
+40 -rwxrwxr-x 1 btech1025824 btech1025824 40103 Aug 20 11:15 sol2
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   420 Aug 13 12:04 ver1a_ans.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   460 Aug 13 11:17 ver1a_out.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   483 Aug 20 11:26 ver1b_ans.txt
+ 4 -rw-rw-r-- 1 btech1025824 btech1025824   365 Aug 13 10:38 ver1b_out.txt

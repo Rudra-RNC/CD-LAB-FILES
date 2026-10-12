@@ -1,0 +1,28 @@
+#First Output
+T1 found : count = 1 Lexeme : abb
+T2 found : count = 1 Lexeme : c
+T2 found : count = 2 Lexeme : aaaccc
+Character b is either not a lexeme or not in Alphabet : count = 1
+Character b is either not a lexeme or not in Alphabet : count = 2
+Character b is either not a lexeme or not in Alphabet : count = 3
+T2 found : count = 3 Lexeme : ac
+T1 found : count = 2 Lexeme : a
+
+Statistics of tokens in input :
+|Token1| = 2; |Token2| = 3; |All Tokens| = 5
+Number of Characters in Input either not a lexeme or outside Alphabet : 3
+
+#Second Output
+T1 found : count = 1 Lexeme : abb
+T2 found : count = 1 Lexeme : c
+T1 found : count = 2 Lexeme : a
+T2 found : count = 2 Lexeme : c
+Character b is either not a lexeme or not in Alphabet : count = 1
+T1 found : count = 3 Lexeme : ab
+T2 found : count = 3 Lexeme : c
+T1 found : count = 4 Lexeme : ab
+T2 found : count = 4 Lexeme : c
+
+Statistics of tokens in input :
+|Token1| = 4; |Token2| = 4; |All Tokens| = 8
+Number of Characters in Input either not a lexeme or outside Alphabet : 1

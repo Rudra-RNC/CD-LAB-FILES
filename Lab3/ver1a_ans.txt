@@ -1,0 +1,5 @@
+Patient No.1: 01-01-2026 Anil BS(F) 48 BS(PP) 101 HBA1C 5.5 || F:VL; PP:N; HBA1C:N
+Patient No.2: 05-02-2026 Mita BS(F) 108 BS(PP) 150 HBA1C 6.4 || F:N; PP:H; HBA1C:H
+Patient No.3: 11-03-2026 Sunil BS(F) 119 BS(PP) 170 HBA1C 6.1 || F:H; PP:VH; HBA1C:N
+Patient No.4: 29-04-2026 Seetha BS(F) 113 BS(PP) 140 HBA1C 6.5 || F:N; PP:N; HBA1C:H
+Patient No.5: 10-08-2026 Shyam BS(F) 112 BS(PP) 131 HBA1C 7.1 || F:N; PP:N; HBA1C:H
