@@ -1,0 +1,3 @@
+30
+i = m + j;
+sum = i + j + count;
