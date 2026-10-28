@@ -1,0 +1,6 @@
+int a, b, c;
+float x, y, z;
+int res;
+a = 10; b = 20; x = 2.5; y = 12.5; z = 15.5; c= 30;
+res =  a * x + b % y * 10 - b/c/x;
+

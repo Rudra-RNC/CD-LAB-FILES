@@ -1,0 +1,23 @@
+ NUMBER : 2
+ Value of T : 2
+ Value of E : 2
+ NUMBER : 3
+ Value of T : 3
+ Value of 2 + 3: 5
+ Value of (E) : 5
+ Value of T : 5
+ NUMBER : 5
+ Value of  5 * 5 : 25
+ Value of E : 25
+ NUMBER : 5
+ Value of T : 5
+ NUMBER : 6
+ Value of T : 6
+ Value of E : 6
+ NUMBER : 12
+ Value of T : 12
+ Value of 6 + 12: 18
+ Value of (E) : 18
+ Value of  5 * 18 : 90
+ Value of 25 + 90: 115
+Final Value of E : 115

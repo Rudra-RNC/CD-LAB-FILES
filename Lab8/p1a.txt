@@ -1,0 +1,11 @@
+ Give start label number : 
+Rule E -> ID used ;
+Rule E -> ID used ;
+Rule E -> E + ID used ;
+Assignment statement 1 processed ;
+Rule E -> ID used ;
+Rule E -> ID used ;
+Rule E -> E + ID used ;
+Rule E -> ID used ;
+Rule E -> E + ID used ;
+Assignment statement 1 processed ;
